@@ -284,18 +284,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //  Preenchimento de mapa contento o ID do botão como chave e o ID do WAV como value
         try{
-            mSoundMap.put(R.id.button1, mSoundPool.load(getApplicationContext(),R.raw.um,1));
-            mSoundMap.put(R.id.button2, mSoundPool.load(getApplicationContext(),R.raw.dois,1));
-            mSoundMap.put(R.id.button3, mSoundPool.load(getApplicationContext(),R.raw.tres,1));
-            mSoundMap.put(R.id.button4, mSoundPool.load(getApplicationContext(),R.raw.quatro,1));
-            mSoundMap.put(R.id.button5, mSoundPool.load(getApplicationContext(),R.raw.cinco,1));
-            mSoundMap.put(R.id.button6, mSoundPool.load(getApplicationContext(),R.raw.seis,1));
-            mSoundMap.put(R.id.button7, mSoundPool.load(getApplicationContext(),R.raw.seis,1));
-            mSoundMap.put(R.id.button8, mSoundPool.load(getApplicationContext(),R.raw.oito,1));
-            mSoundMap.put(R.id.button9, mSoundPool.load(getApplicationContext(),R.raw.nove,1));
-            mSoundMap.put(R.id.button10, mSoundPool.load(getApplicationContext(),R.raw.dez,1));
-            mSoundMap.put(R.id.button11, mSoundPool.load(getApplicationContext(),R.raw.onze,1));
-            mSoundMap.put(R.id.button12, mSoundPool.load(getApplicationContext(),R.raw.doze,1));
+          mSoundMap.put(R.id.button1, mSoundPool.load(getApplicationContext(),R.raw.bd_flir,1));
+           mSoundMap.put(R.id.button2, mSoundPool.load(getApplicationContext(),R.raw.bd_gas,1));
+           mSoundMap.put(R.id.button3, mSoundPool.load(getApplicationContext(),R.raw.bd_ghost,1));
+           mSoundMap.put(R.id.button4, mSoundPool.load(getApplicationContext(),R.raw.clp_classic,1));
+           mSoundMap.put(R.id.button5, mSoundPool.load(getApplicationContext(),R.raw.clp_donuts,1));
+           mSoundMap.put(R.id.button6, mSoundPool.load(getApplicationContext(),R.raw.clp_kiddo,1));
+           mSoundMap.put(R.id.button7, mSoundPool.load(getApplicationContext(),R.raw.cym_gatecrashed,1));
+           mSoundMap.put(R.id.button8, mSoundPool.load(getApplicationContext(),R.raw.ride_cymbal1,1));
+           mSoundMap.put(R.id.button9, mSoundPool.load(getApplicationContext(),R.raw.ride_full,1));
+           mSoundMap.put(R.id.button10, mSoundPool.load(getApplicationContext(),R.raw.tom_dept,1));
+           mSoundMap.put(R.id.button11, mSoundPool.load(getApplicationContext(),R.raw.tom_iloveroland,1));
+           mSoundMap.put(R.id.button12, mSoundPool.load(getApplicationContext(),R.raw.tom_madisonave,1));
 
         } catch (Exception e) {
             e.printStackTrace();
