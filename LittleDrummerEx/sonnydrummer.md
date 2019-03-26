@@ -335,7 +335,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 # 3. Ajustes Visuais
 
-# 3.1 Criação de botão com cantos arredondados e efeito Ripple
+## 3.1 Criação de botão com cantos arredondados e efeito Ripple
 1. Crie o arquivo `ripple_drum_button.xml` na pasta `res/drawable`.
 2. Edite-o como exemplo abaixo:
 
@@ -371,4 +371,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     <color name="rosa">#e300ff</color>
 
 </resources>  
+```
+
+## 3.3 Paleta de cores neon
+Ajuste o background dos boões conforme sua preferencia, utilize o exemplo a seguir para cada botão.
+
+
+```javascript
+android:background="@drawable/ripple_drum_button"
+android:backgroundTint="@color/rosa_claro"
 ```
