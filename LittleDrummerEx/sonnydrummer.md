@@ -332,3 +332,43 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 }
 
 ```
+
+# 3. Ajustes Visuais
+
+# 3.1 Criação de botão com cantos arredondados e efeito Ripple
+1. Crie o arquivo `ripple_drum_button.xml` na pasta `res/drawable`.
+2. Edite-o como exemplo abaixo:
+
+```javascript
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#FFFFFF">
+    <item>
+        <shape>
+            <solid android:color="@color/colorPrimaryDark"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+</ripple>
+```
+
+
+## 3.2 Paleta de cores neon
+1. Edite o arquivo `colors.xml`na pasta `res/values`.
+
+```javascript
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#232323</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#740aff</color>
+
+
+    <!-- Paleta Neon -->
+    <color name="rosa_claro">#FF00F4</color>
+    <color name="amarelo">#fdff00</color>
+    <color name="azul">#00FFD2</color>
+    <color name="verde">#b0ff00</color>
+    <color name="rosa">#e300ff</color>
+
+</resources>  
+```
