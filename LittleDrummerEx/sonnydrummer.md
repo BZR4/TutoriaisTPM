@@ -209,6 +209,7 @@ No momento esta é a primeira versão do tutorial em forma de Wiki, espero que v
 # Adicionar pacote de sons ao App.
 1. Dentro da pasta `res`, crie uma nova pasta, um novo `Android Resource File` a pasta `raw`.
 2. Dentro da pasta `raw`, cole os arquivos de audio para o `Sonny Drummer`.
+3. Os arquivos de audio estão disponíveis em [Link Google Drive](https://drive.google.com/open?id=1_r_fFEhg9D253Yj1f2TiAiFLX5sSn-Io).
 
 # Código-Fonte SonnyDrummerÂ
 
